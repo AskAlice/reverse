@@ -1,0 +1,19 @@
+{
+  "name": "reverse-shell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node productionServer.js",
+    "predeploy": "npm install",
+    "deploy": "sectionctl deploy -a 1887 -i 7749"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-spawn": "^7.0.3",
+    "express": "^4.17.1",
+    "netcat": "^1.5.0"
+  }
+}
